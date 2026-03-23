@@ -1,0 +1,30 @@
+import { createRouter, createWebHistory } from "vue-router";
+import MainRoutes from "./MainRoutes";
+export const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+    path: "/",
+    component: () => import("@/views/dashboards/index.vue"),
+    },
+
+    {
+      path: "/auth/login2",
+      component: () => import("@/views/authentication/auth2/Login.vue"),
+      meta: { requiresAuth: false },
+    },
+
+    {
+      path: "/auth/register2",
+      component: () => import("@/views/authentication/auth2/Register.vue"),
+      meta: { requiresAuth: false },
+    },
+
+
+
+
+
+    ...MainRoutes,
+
+  ],
+});
