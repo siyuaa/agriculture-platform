@@ -10,7 +10,7 @@
           <div class="relative">
             <Icon icon="solar:magnifer-linear" width="18" height="18"
               class="absolute left-3 top-1/2 -translate-y-1/2" />
-            <Input type="text" placeholder="Search..." class="rounded-xl pl-10" />
+            <Input type="text" placeholder="搜索..." class="rounded-xl pl-10" />
           </div>
         </div>
       </div>

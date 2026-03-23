@@ -1,75 +1,57 @@
 <template>
-  <div class="p-6 space-y-6 bg-gray-100 min-h-screen">
-
+  <div class="p-6 bg-green-50 min-h-screen">
     <!-- 标题 -->
-    <h1 class="text-3xl font-bold text-gray-800">🌾 数智助农平台</h1>
+    <h1 class="text-2xl font-bold mb-6">数智助农平台</h1>
 
     <!-- 项目简介 -->
-    <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-lg transition">
-      <h2 class="text-xl font-semibold mb-3 text-gray-800">项目简介</h2>
-      <p class="text-gray-600 leading-relaxed">
-        本平台基于物联网与人工智能技术，对农作物生长环境进行实时监测与智能分析。
-        通过部署温湿度、光照等传感器，实现数据自动采集与高频更新，保障数据的时效性与准确性。
-        同时具备智能预警与操作建议功能，提高农业生产效率与作物品质。
+    <div class="bg-white p-4 rounded-xl shadow mb-6">
+      <h2 class="text-lg font-semibold mb-2">项目简介</h2>
+      <p class="text-gray-600">
+        基于物联网与人工智能的农业数据分析平台，实现农作物环境监测、智能分析与管理。
       </p>
     </div>
 
-    <!-- 核心模块 -->
-    <div>
-      <h2 class="text-xl font-semibold mb-4 text-gray-800">核心功能模块</h2>
-
-      <div class="grid md:grid-cols-3 gap-6">
-
-        <!-- 模块1 -->
-        <div class="bg-white rounded-2xl shadow-md p-5 hover:scale-105 transition">
-          <h3 class="text-lg font-semibold mb-3">📡 数据采集</h3>
-          <ul class="text-gray-600 space-y-1 text-sm">
-            <li>• 温湿度监测</li>
-            <li>• 光照数据采集</li>
-            <li>• 气象数据整合</li>
-          </ul>
-        </div>
-
-        <!-- 模块2 -->
-        <div class="bg-white rounded-2xl shadow-md p-5 hover:scale-105 transition">
-          <h3 class="text-lg font-semibold mb-3">🤖 智能分析</h3>
-          <ul class="text-gray-600 space-y-1 text-sm">
-            <li>• 生长预测</li>
-            <li>• 病虫害预警</li>
-            <li>• 水肥调控</li>
-          </ul>
-        </div>
-
-        <!-- 模块3 -->
-        <div class="bg-white rounded-2xl shadow-md p-5 hover:scale-105 transition">
-          <h3 class="text-lg font-semibold mb-3">📊 应用管理</h3>
-          <ul class="text-gray-600 space-y-1 text-sm">
-            <li>• 农户平台</li>
-            <li>• 后台管理</li>
-            <li>• 数据展示</li>
-          </ul>
-        </div>
-
+    <!-- 功能模块（只留框架） -->
+    <div class="grid grid-cols-3 gap-4 mb-6">
+      <div class="bg-white h-32 rounded-xl shadow flex items-center justify-center text-gray-400">
+        模块一
+      </div>
+      <div class="bg-white h-32 rounded-xl shadow flex items-center justify-center text-gray-400">
+        模块二
+      </div>
+      <div class="bg-white h-32 rounded-xl shadow flex items-center justify-center text-gray-400">
+        模块三
       </div>
     </div>
 
-    <!-- 服务流程 -->
-    <div class="bg-white rounded-2xl shadow-md p-6">
-      <h2 class="text-xl font-semibold mb-4 text-gray-800">服务流程</h2>
+    <!-- 图表区域 -->
+    <div class="grid grid-cols-2 gap-4">
+      <!-- 图1 -->
+      <div class="bg-white p-4 rounded-xl shadow">
+        <div class="h-40 flex items-center justify-center text-gray-300">
+          （这里放图表）
+        </div>
+        <p class="text-sm text-gray-500 mt-2">
+          温湿度变化图：用于展示农田环境温湿度的实时变化情况。
+        </p>
+      </div>
 
-      <div class="flex flex-wrap justify-between items-center text-gray-600 text-sm md:text-base">
-        <span>📡 数据采集</span>
-        <span>➡️</span>
-        <span>🧠 模型分析</span>
-        <span>➡️</span>
-        <span>🎯 精准干预</span>
-        <span>➡️</span>
-        <span>📈 效果反馈</span>
+      <!-- 图2 -->
+      <div class="bg-white p-4 rounded-xl shadow">
+        <div class="h-40 flex items-center justify-center text-gray-300">
+          （这里放图表）
+        </div>
+        <p class="text-sm text-gray-500 mt-2">
+          作物生长趋势图：用于分析作物生长状态变化。
+        </p>
       </div>
     </div>
-
   </div>
 </template>
 
 <script setup>
+// 暂时不用写逻辑
 </script>
+
+<style scoped>
+</style>
