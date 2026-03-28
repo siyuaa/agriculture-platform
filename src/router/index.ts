@@ -17,6 +17,11 @@ export const router = createRouter({
       meta: { requiresAuth: false },
     },
 
+    {
+  path: '/login',
+  component: () => import('@/views/login.vue')
+},
+
 
 
 
@@ -25,3 +30,4 @@ export const router = createRouter({
 
   ],
 });
+

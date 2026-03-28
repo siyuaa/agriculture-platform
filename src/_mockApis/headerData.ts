@@ -11,29 +11,24 @@ import type {
 
 const notifications: notificationType[] = [
   {
-
-    title: "Roman Joined the Team!",
-    subtitle: "Congratulate him",
+    title: "新设备接入",
+    subtitle: "温湿度传感器已成功连接",
   },
   {
-
-    title: "New message received",
-    subtitle: "Salma sent you new message",
+    title: "环境数据更新",
+    subtitle: "农田温湿度数据已刷新",
   },
   {
-
-    title: "New Payment received",
-    subtitle: "Check your earnings",
+    title: "异常预警",
+    subtitle: "检测到土壤湿度过低，请及时处理",
   },
   {
-
-    title: "Jolly completed tasks",
-    subtitle: "Assign her new tasks",
+    title: "AI识别完成",
+    subtitle: "作物叶片病害识别已完成",
   },
   {
-
-    title: "Roman Joined the Team!",
-    subtitle: "$230 deducted from account",
+    title: "系统通知",
+    subtitle: "今日数据分析报告已生成",
   },
 ];
 
@@ -46,19 +41,19 @@ const notifications: notificationType[] = [
 
 const profileDD: profileType[] = [
   {
-    title: "My Profile",
+    title: "我的资料",
     subtitle: "Account settings",
     url: "/user-profile",
     img: "tabler:user",
   },
   {
-    title: "My Account",
+    title: "我的账户",
     subtitle: "My Daily Notes",
     url: "/",
     img: "tabler:mail",
   },
   {
-    title: "My Tasks",
+    title: "我的任务",
     subtitle: "To-do and Daily tasks",
     url: "/",
     img: "tabler:list-check",
